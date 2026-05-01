@@ -6,7 +6,7 @@ class Solution:
             if count==0:
                 candidate =i
             if candidate==i:
-                count+=1
+                count+=1         #boyer-moore algorithm 
             else:
                 count-=1
         
